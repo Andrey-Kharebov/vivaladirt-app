@@ -1,0 +1,38 @@
+.patreonComponent {
+  background: #fff;
+  max-height: 830px;
+  height: 100%;
+  padding: 25px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.patreonComponent h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+
+.patreonComponent p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.patreonComponent .patreonSection {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.patreonComponent .patreonSection div {
+  margin: 35px;
+}
+
+.patreonComponent .storeSection img {
+  width: 357px;
+  height: 357px;
+}

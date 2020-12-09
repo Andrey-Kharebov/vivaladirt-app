@@ -1,0 +1,31 @@
+.footer {
+  background: rgb(17, 17, 17);
+  color: rgb(102, 102, 102);
+  box-sizing: border-box;
+  height: 60px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+}
+
+.footer .authorSocial {
+  font-size: 18px;
+}
+
+.footer .footerSocial ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer .footerSocial ul li {
+  margin: 0 11px;
+  font-size: 18px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,50 @@
+.packagesComponent {
+  background: rgb(179, 51, 43);
+  max-height: 830px;
+  height: 100%;
+  padding: 25px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.packagesComponent h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.packagesComponent .packagesSection {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.packagesComponent .packagesSection .package {
+  width: 357px;
+  margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.packagesComponent .packagesSection .package h3 {
+  margin: 20px auto 0 auto;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.packagesComponent .packagesSection .package p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.packagesComponent .packagesSection .package ul {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+

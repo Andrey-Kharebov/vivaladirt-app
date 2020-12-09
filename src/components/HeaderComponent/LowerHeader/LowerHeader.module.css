@@ -1,0 +1,25 @@
+.lowerHeader {
+  box-sizing: border-box;
+  max-height: 100px;
+  height: 100%;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lowerHeader img {
+  width: 100px;
+}
+
+.lowerHeader .headerMenu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.lowerHeader .headerMenu ul li {
+  margin: 0 11px;
+  font-size: 18px;
+  text-transform: uppercase;
+}

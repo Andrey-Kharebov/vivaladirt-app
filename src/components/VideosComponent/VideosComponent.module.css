@@ -1,0 +1,47 @@
+.videosComponent {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+
+.videosComponent h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.videosComponent p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.videosComponent .videosSection {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.videosComponent .videosSection div {
+  margin: 15px;
+}
+
+.videosComponent .videosSection img {
+  width: 553px;
+  height: 311px;
+}
+
+.videosComponent button {
+  width: 212px;
+  height: 54px;
+  background: rgb(17, 17, 17);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+}
