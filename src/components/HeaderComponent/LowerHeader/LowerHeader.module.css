@@ -2,13 +2,13 @@
   box-sizing: border-box;
   max-height: 100px;
   height: 100%;
-  padding: 5px 15px;
+  padding: 10px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.lowerHeader img {
+.lowerHeader .headerLogo img {
   width: 100px;
 }
 
@@ -19,7 +19,8 @@
 }
 
 .lowerHeader .headerMenu ul li {
-  margin: 0 11px;
+  margin-left: 28px;
+  color: #fff;
   font-size: 18px;
   text-transform: uppercase;
 }

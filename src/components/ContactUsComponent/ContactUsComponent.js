@@ -12,20 +12,16 @@ function ContactUsComponent() {
           <div className={ classes.contactForm }>
             <form>
               <div>
-                <input id='firstName' type='text' />
-                {/* <label for='firstName'>First Name</label> */}
+                <input id='firstName' type='text' placeholder="First Name" />
               </div>
               <div>
-                <input id='lastName' type='text' />
-                {/* <label for='lastName'>Last Name</label> */}
+                <input id='lastName' type='text' placeholder="Last Name" />
               </div>
               <div>
-                <input id='Email Address' type='text' />
-                {/* <label for='Email Address'>Email Address</label> */}
+                <input id='Email Address' type='text' placeholder="Email Address" />
               </div>
               <div>
-                <textarea id='message' type='text' />
-                {/* <label for='message'>Message</label> */}
+                <textarea id='message' type='text' placeholder="Message" />
               </div>
               <div> 
                 <button>submit</button>
@@ -35,11 +31,13 @@ function ContactUsComponent() {
         </div>
         <div className={ classes.contactsSection }>
           <img src="/assets/logo.png" alt="logo"></img>
-          <p>Viva La Dirt League</p>
-          <p>PO Box 41378</p>
-          <p>St Lukes 1346</p>
-          <p>Auckland</p>
-          <p>vivaladirtleague@gmail.com</p>
+          <h4>Viva La Dirt League</h4>
+          <div className={ classes.address }>
+            <p>PO Box 41378</p>
+            <p>St Lukes 1346</p>
+            <p>Auckland</p>
+            <p>vivaladirtleague@gmail.com</p>
+          </div>  
         </div>
       </div>
     </div>

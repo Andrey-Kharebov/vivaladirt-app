@@ -2,34 +2,38 @@
   background: rgb(74, 165, 190);
   max-height: 830px;
   height: 100%;
-  padding: 25px 0 100px 0;
+  padding: 97px 0 200px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #fff;
+  transform: skew(0deg, 4deg) translateY(-126px);
 }
 
 .storeComponent h2 {
+  transform: skew(0deg, -4deg);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 38px;
 }
 
 
 .storeComponent p {
-  margin-top: 10px;
+  transform: skew(0deg, -4deg);
+  margin-top: 3px;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .storeComponent .storeSection {
-  margin-top: 15px;
+  transform: skew(0deg, -4deg);
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
 
 .storeComponent .storeSection .item {
-  margin: 15px;
+  margin: 18px;
 }
 
 .storeComponent .storeSection img {
@@ -38,7 +42,9 @@
 }
 
 .storeComponent button {
-  width: 212px;
+  transform: skew(0deg, -4deg);
+  margin-top: 33px;
+  width: 200px;
   height: 54px;
   background: rgb(17, 17, 17);
   color: #fff;

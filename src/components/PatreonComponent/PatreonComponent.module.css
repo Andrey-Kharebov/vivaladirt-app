@@ -1,38 +1,43 @@
 .patreonComponent {
+  transform: skew(0deg, -4deg) translateY(-248px);
   background: #fff;
   max-height: 830px;
   height: 100%;
-  padding: 25px 0 100px 0;
+  padding-top: 98px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .patreonComponent h2 {
+  transform: skew(0deg, 4deg);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 36px;
 }
 
-
 .patreonComponent p {
-  margin-top: 10px;
+  transform: skew(0deg, 4deg);
+  margin-top: 7px;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .patreonComponent .patreonSection {
-  margin-top: 15px;
+  transform: skew(0deg, 4deg);
+  max-width: 1140px;
+  width: 100%;
+  margin-top: 53px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.patreonComponent .patreonSection div {
-  margin: 35px;
+.patreonComponent .patreonSection div:nth-child(2) {
+  margin-right: 76px;
+  margin-bottom: 20px;
 }
 
-.patreonComponent .storeSection img {
-  width: 357px;
-  height: 357px;
+.patreonComponent .patreonSection .patreonImage a img {
+  width: 400px;
 }

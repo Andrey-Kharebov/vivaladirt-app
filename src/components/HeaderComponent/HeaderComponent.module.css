@@ -1,5 +1,5 @@
 .headerComponent {
-  /* border: 1px solid purple; */
   position: fixed;
   width: 100%;
+  z-index: 3;
 }

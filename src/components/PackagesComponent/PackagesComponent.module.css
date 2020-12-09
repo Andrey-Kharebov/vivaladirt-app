@@ -2,47 +2,56 @@
   background: rgb(179, 51, 43);
   max-height: 830px;
   height: 100%;
-  padding: 25px 0 100px 0;
+  padding: 25px 0 255px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #fff;
+  transform: skew(0deg, 4deg);
 }
+
 
 .packagesComponent h2 {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 38px;
+  transform: skew(0deg, -4deg);
+  margin-top: 72px;
 }
 
 .packagesComponent .packagesSection {
+  max-width: 1145px;
+  width: 100%;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
+  transform: skew(0deg, -4deg);
 }
 
 .packagesComponent .packagesSection .package {
-  width: 357px;
-  margin: 0 25px;
+  width: 360px;
   display: flex;
   flex-direction: column;
 }
 
 .packagesComponent .packagesSection .package h3 {
-  margin: 20px auto 0 auto;
+  margin: 12px auto 0 auto;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 25px;
 }
 
 .packagesComponent .packagesSection .package p {
-  margin-top: 20px;
+  margin-top: 10px;
+  line-height: 28px;
   font-weight: 400;
   font-size: 15px;
 }
 
 .packagesComponent .packagesSection .package ul {
-  margin-top: 20px;
+  margin-top: 1px;
+  margin-left: 15px;
+  line-height: 26px;
   font-weight: 400;
   font-size: 15px;
 }

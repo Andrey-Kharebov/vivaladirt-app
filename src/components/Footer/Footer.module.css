@@ -3,7 +3,7 @@
   color: rgb(102, 102, 102);
   box-sizing: border-box;
   height: 60px;
-  padding: 5px 15px;
+  padding: 5px 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,7 +25,7 @@
 }
 
 .footer .footerSocial ul li {
-  margin: 0 11px;
-  font-size: 18px;
+  margin-left: 30px;
+  font-size: 20px;
   text-transform: uppercase;
 }

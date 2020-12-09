@@ -15,8 +15,8 @@ function AboutUsComponent() {
       </div>
       <div className={classes.aboutUsVideo}>
         <iframe
-          width="560"
-          height="315"
+          width="540"
+          height="300"
           src="https://www.youtube.com/embed/UrNAQ_Z8Wao"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
