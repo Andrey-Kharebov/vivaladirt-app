@@ -3,3 +3,17 @@
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
 }
+
+.slick-dots { 
+  bottom: 20px !important;
+}
+
+.slick-dots button:before {
+  font-size: 10px !important;
+  color: rgba(70, 70, 70) !important;
+}
+
+.slick-dots li.slick-active button:before {
+  font-size: 10px !important;
+  color: #fff !important; 
+}
