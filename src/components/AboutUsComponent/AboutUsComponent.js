@@ -3,7 +3,7 @@ import classes from "./AboutUsComponent.module.css";
 
 function AboutUsComponent() {
   return (
-    <div className={classes.aboutUsComponent}>
+    <div id="about" className={classes.aboutUsComponent}>
       <div className={classes.aboutUsDescription}>
         <h2>We create videos that entertain and influence a huge audience!</h2>
         <p>
@@ -15,12 +15,13 @@ function AboutUsComponent() {
       </div>
       <div className={classes.aboutUsVideo}>
         <iframe
+          title="aboutUsVideo"
           width="540"
           height="300"
           src="https://www.youtube.com/embed/UrNAQ_Z8Wao"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </div>

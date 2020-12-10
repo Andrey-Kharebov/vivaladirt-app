@@ -6,10 +6,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: .4s ease-in-out;
+}
+
+.lowerHeader.blacked {
+  max-height: 70px;
+  height: 100%;
+  background: rgb(17, 17, 17);
 }
 
 .lowerHeader .headerLogo img {
+  transition: .4s ease-in-out;
   width: 100px;
+}
+
+.lowerHeader.blacked .headerLogo img {
+  width: 78px;
 }
 
 .lowerHeader .headerMenu ul {

@@ -5,7 +5,7 @@ import classes from './Footer.module.css';
    return (
      <div className={ classes.footer }>
         <div>
-          <p><a href="#">original website</a></p>
+          <p><a href="https://www.vivaladirtleague.com/" rel="noreferrer" target="_blank">original website</a></p>
         </div>
         <div className={ classes.authorSocial}>
           <i className="fab fa-vk"></i>

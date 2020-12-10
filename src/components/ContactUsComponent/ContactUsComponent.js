@@ -3,7 +3,7 @@ import classes from "./ContactUsComponent.module.css";
 
 function ContactUsComponent() {
   return (
-    <div className={ classes.contactUsComponent }>
+    <div id="contact" className={ classes.contactUsComponent }>
       <h2>contact us</h2>
       <div className={ classes.formAndContactsSection }>
         <div className={ classes.formSection }>
