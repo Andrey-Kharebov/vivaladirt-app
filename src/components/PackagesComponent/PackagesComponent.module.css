@@ -35,10 +35,11 @@
 }
 
 .packagesComponent .packagesSection .package .iframe  {
-  background-color: #000;
+  /* background-color: #000; */
   transition: all .5s ease-in-out;
+  width: 360px;
   height: 201px;
-  box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3) !important;
+  /* box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3) !important; */
   overflow: hidden;
 }
 
@@ -52,7 +53,7 @@
 }
 
 .packagesComponent .packagesSection .package .iframe:hover iframe{
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 
 

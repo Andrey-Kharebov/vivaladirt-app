@@ -31,7 +31,13 @@
 
 .socialMedia li {
   margin-right: 19px;
+  margin-top: 1px;
   transition: 0.3s ease-in-out;
+}
+
+.socialMedia li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .socialMedia li:hover {

@@ -22,6 +22,7 @@
   letter-spacing: 0.3px;
   font-size: 29px;
   line-height: 37px;
+  overflow: hidden;
 }
 
 .aboutUsDescription p {
@@ -62,5 +63,5 @@
 }
 
 .aboutUsComponent .aboutUsVideo:hover {
-  transform: scaleX(1.01) scaleY(1.01)!important;
+  transform: scaleX(1.01) scaleY(1.01) !important;
 }
