@@ -1,5 +1,6 @@
 .lowerHeader {
   box-sizing: border-box;
+  width: 100%;
   max-height: 100px;
   height: 100%;
   padding: 10px 30px;
@@ -7,6 +8,7 @@
   align-items: center;
   justify-content: space-between;
   transition: .4s ease-in-out;
+  overflow: hidden;
 }
 
 .lowerHeader.blacked {
@@ -35,4 +37,10 @@
   color: #fff;
   font-size: 18px;
   text-transform: uppercase;
+  transition: .4s ease-in-out;
+}
+
+.lowerHeader .headerMenu ul li:hover {
+  opacity: .5;
+  cursor: pointer;
 }

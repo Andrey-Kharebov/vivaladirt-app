@@ -33,7 +33,15 @@
 }
 
 .storeComponent .storeSection .item {
+  width: 357px;
+  height: 357px;
   margin: 18px;
+  box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.3) !important;
+  transition: transform 300ms ease 0ms !important;
+  overflow: hidden;
+}
+.storeComponent .storeSection .item:hover {
+  transform: scaleX(1.01) scaleY(1.01)!important;
 }
 
 .storeComponent .storeSection img {
@@ -52,4 +60,10 @@
   font-size: 18px;
   border: none;
   border-radius: 2px;
+  transition: .3s ease-in-out;
+}
+
+.storeComponent button:hover {
+  cursor: pointer;
+  background: rgb(179, 51, 43);
 }

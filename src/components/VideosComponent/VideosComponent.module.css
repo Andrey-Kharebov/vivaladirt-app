@@ -33,6 +33,12 @@
 
 .videosComponent .videosSection div {
   margin: 12px 17px;
+  transition: transform 300ms ease 0ms !important;
+  overflow: hidden;
+}
+
+.videosComponent .videosSection div:hover {
+  transform: scaleX(1.01) scaleY(1.01)!important;
 }
 
 .videosComponent .videosSection img {
@@ -51,4 +57,10 @@
   font-size: 18px;
   border: none;
   border-radius: 2px;
+  transition: .3s ease-in-out;
+}
+
+.videosComponent button:hover {
+  background: rgb(179, 51, 43);
+  cursor: pointer;
 }

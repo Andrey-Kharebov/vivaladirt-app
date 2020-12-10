@@ -34,6 +34,31 @@
   flex-direction: column;
 }
 
+.packagesComponent .packagesSection .package .iframe  {
+  background-color: #000;
+  transition: all .5s ease-in-out;
+  height: 201px;
+  box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3) !important;
+  overflow: hidden;
+}
+
+.packagesComponent .packagesSection .package .iframe iframe {
+  width: 360px;
+  height: 201px;
+}
+
+.packagesComponent .packagesSection .package .iframe:hover {
+  transform: scaleX(1.01) scaleY(1.01)!important;
+}
+
+.packagesComponent .packagesSection .package .iframe:hover iframe{
+  opacity: 0.6;
+}
+
+
+
+
+
 .packagesComponent .packagesSection .package h3 {
   margin: 12px auto 0 auto;
   text-transform: uppercase;

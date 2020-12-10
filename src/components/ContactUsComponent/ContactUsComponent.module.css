@@ -53,6 +53,7 @@
 .contactUsComponent .formAndContactsSection .formSection .contactForm {
   /* border: 1px solid red; */
   margin-top: 32px;
+  overflow: hidden;
 }
 
 .contactUsComponent .formAndContactsSection .formSection .contactForm form {
@@ -99,6 +100,7 @@
   padding-top: 15px;
   font-size: 14px;
   resize: none;
+  overflow: hidden;
 }
 
 .contactUsComponent .formAndContactsSection .formSection .contactForm input:focus,
@@ -119,6 +121,10 @@
   border: none;
   border-radius: 2px;
   float: right;
+}
+
+.contactUsComponent .formAndContactsSection .formSection .contactForm button:hover {
+  cursor: pointer;
 }
 
 .contactUsComponent .formAndContactsSection .contactsSection {

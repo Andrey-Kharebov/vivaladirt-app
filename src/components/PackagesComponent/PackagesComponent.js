@@ -7,7 +7,9 @@ function PackagesComponent() {
       <h2>packages</h2>
       <div className={ classes.packagesSection }>
         <div className={ classes.package }>
-          <iframe title="Cost Price" width="360" height="201" src="https://www.youtube.com/embed/cSqbXfMUL1k?controls=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>        
+          <div className={ classes.iframe }>
+            <iframe title="Cost Price" src="https://www.youtube.com/embed/cSqbXfMUL1k?controls=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>        
+          </div>
           <h3>basic</h3>
           <p>Your product integrated in a skit with no brand messaging.</p>
           <ul>
@@ -17,7 +19,9 @@ function PackagesComponent() {
           </ul>
         </div>
         <div className={ classes.package }>
-          <iframe title="UAZ" width="360" height="201" src="https://www.youtube.com/embed/KTIad5OZnWY" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <div className={ classes.iframe }>
+            <iframe title="UAZ" src="https://www.youtube.com/embed/KTIad5OZnWY" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
           <h3>basic plus</h3>
           <p>Product integrated in skit with brand messaging in annotations.</p>
           <ul>
@@ -27,7 +31,9 @@ function PackagesComponent() {
           </ul>
         </div>
         <div className={ classes.package }>
-          <iframe title="Conquerors Blade" width="360" height="201" src="https://www.youtube.com/embed/z8f7cE0t0TI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <div className={ classes.iframe }>
+            <iframe title="Conquerors Blade" src="https://www.youtube.com/embed/z8f7cE0t0TI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
           <h3>delux</h3>
           <p>Branded skit specifically made for your company. <br/>
             **price varies depending on scale of idea

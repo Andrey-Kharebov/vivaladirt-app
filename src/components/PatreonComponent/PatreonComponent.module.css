@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 .patreonComponent h2 {
@@ -31,11 +32,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
+}
+.patreonComponent .patreonSection .patreonVideo {
+  width: 553px;
+  height: 311px; 
+  transition: transform 300ms ease 0ms !important;
+  overflow: hidden;
+}
+
+.patreonComponent .patreonSection .patreonVideo iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.patreonComponent .patreonSection .patreonVideo:hover {
+  transform: scaleX(1.01) scaleY(1.01) !important;
 }
 
 .patreonComponent .patreonSection div:nth-child(2) {
   margin-right: 76px;
   margin-bottom: 20px;
+  transition: transform 300ms ease 0ms !important;
+}
+
+.patreonComponent .patreonSection .patreonImage:hover {
+  transform: scaleX(1.01) scaleY(1.01) !important;
 }
 
 .patreonComponent .patreonSection .patreonImage a img {
