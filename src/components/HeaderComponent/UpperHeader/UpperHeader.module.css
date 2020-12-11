@@ -1,7 +1,8 @@
 .upperHeader {
   box-sizing: border-box;
-  background: rgb(211, 11, 29);
+  max-width: 100%;
   width: 100%;
+  background: rgb(211, 11, 29);
   height: 31px;
   color: #fff;
   font-weight: 600;
@@ -10,38 +11,64 @@
   text-align: center;
 }
 
-.emailContact {
+.upperHeader .emailContact {
   line-height: 31px;
-  margin-left: 31px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+  transition: 0.3s ease-in-out;
 }
 
-.emailContact span {
+.upperHeader .emailContact:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.upperHeader .emailContact span {
   margin-left: 5px;
 }
 
-.socialMedia {
+.upperHeader .socialMedia {
   line-height: 31px;
   display: flex;
   margin-left: 16px;
 }
 
-.socialMedia {
+.upperHeader .socialMedia {
   list-style-type: none;
 }
 
-.socialMedia li {
+.upperHeader .socialMedia li {
   margin-right: 19px;
-  margin-top: 1px;
   transition: 0.3s ease-in-out;
 }
 
-.socialMedia li a {
+.upperHeader .socialMedia li a {
   text-decoration: none;
   color: #fff;
 }
 
-.socialMedia li:hover {
+.upperHeader .socialMedia li:hover {
   opacity: 0.5;
   cursor: pointer;
+}  
+
+
+
+
+@media (min-width: 768px) {
+  .upperHeader {
+    padding-left: 31px;
+  }
+}
+
+@media (max-width: 767px) {
+  .upperHeader {
+    justify-content: center;
+  }
+
+  .upperHeader .socialMedia {
+    display: none;
+  }
 }
 
