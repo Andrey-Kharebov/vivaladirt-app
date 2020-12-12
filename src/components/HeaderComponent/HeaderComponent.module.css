@@ -1,6 +1,22 @@
 .headerComponent {
-  position: fixed;
   width: 100%;
   z-index: 3;
   overflow: visible;
+}
+
+@media (min-width: 982px) {
+  .headerComponent {
+    position: fixed;
+  }
+} 
+
+@media (max-width: 981px) {
+  .headerComponent {
+  }
+}
+
+@media (max-width: 768px) {
+  .headerComponent {
+    position: fixed;
+  }
 }

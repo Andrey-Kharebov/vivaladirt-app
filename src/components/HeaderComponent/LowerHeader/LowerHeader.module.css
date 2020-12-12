@@ -69,6 +69,7 @@
   .lowerHeader .burgerMenu {
     color: rgb(194, 44, 41);
     font-size: 22px;
+    cursor: pointer;
   }
 
   .lowerHeader .headerLogo img {
@@ -77,6 +78,7 @@
   }
 
   .lowerHeader .headerMenu {
+    z-index: 3;
     position: absolute;
     border-top: 3px solid rgb(80, 177, 206);
     background: rgb(17, 17, 17);

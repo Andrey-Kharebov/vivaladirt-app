@@ -18,13 +18,13 @@ function Slidor() {
 
   return (
     <Slider className={ classes.slider } {...settings}>
-      <div>
+      <div className={ classes.imgSection }>
         <img src="./assets/vldl1.png" alt="slide1"></img>
       </div>
-      <div>
+      <div className={ classes.imgSection }>
         <img src="./assets/vldl2.jpg" alt="slide2"></img>
       </div>
-      <div>
+      <div className={ classes.imgSection }>
         <img src="./assets/vldl3.jpg" alt="slide3"></img>
       </div>
     </Slider>
