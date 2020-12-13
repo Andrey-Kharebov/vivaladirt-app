@@ -5,11 +5,6 @@
   overflow: hidden;
 }
 
-.aboutUsComponent >div {
-  width: 537px;
-  margin: 0 33px;
-}
-
 .aboutUsComponent .aboutUsDescription {
   display: flex;
   flex-direction: column;
@@ -59,6 +54,7 @@
 }
 
 @media (min-width: 982px) {
+  
   .aboutUsComponent {
     max-height: 540px;
     height: 100%;
@@ -66,6 +62,12 @@
 
   .aboutUsDescription button {
     margin-bottom: 20px;
+  }
+
+  .aboutUsComponent >div {
+    /* border: 1px solid red; */
+    width: 537px;
+    margin: 0 33px;
   }
 
   .aboutUsDescription h2 {
@@ -93,8 +95,8 @@
   }
 
   .aboutUsComponent >div {
-    width: 80%;
-    margin: 0 33px;
+    max-width: 80%;
+    height: auto;
   }
   
   .aboutUsDescription h2 {
@@ -114,7 +116,7 @@
 
   .aboutUsComponent .aboutUsVideo {
     margin-top: 33px;
-    width: 100%;
-    height: auto;
+    width: 640px;
+    height: 360px;
   }
 }
