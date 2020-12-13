@@ -4,7 +4,7 @@ import classes from './Footer.module.css';
  function Footer() {
    return (
      <div className={ classes.footer }>
-        <div>
+        <div className={ classes.originalLink }>
           <p><a href="https://www.vivaladirtleague.com/" rel="noreferrer" target="_blank">original website</a></p>
         </div>
         <div className={ classes.authorSocial}>

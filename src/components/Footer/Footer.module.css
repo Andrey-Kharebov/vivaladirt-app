@@ -61,6 +61,16 @@
     flex-direction: column;
   }
 
+  .footer >div {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .originalLink {
+    width: 200px;
+    text-align: center;
+  }
+
   .footer .footerSocial ul li {
     margin-left: 15px;
     margin-right: 15px;
