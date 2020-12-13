@@ -2,8 +2,6 @@
   box-sizing: border-box;
   margin-top: -123px;
   color: #fff;
-  max-height: 785px;
-  height: 100%;
   background-image: linear-gradient(180deg,rgba(17,17,17,0.75) 0%,rgba(0,0,0,0.9) 100%),url(https://www.vivaladirtleague.com/wp-content/uploads/2020/02/Capture0063-63-cropped.jpg) !important;
   background-position: 50%;
   background-size: cover;
@@ -21,12 +19,28 @@
 }
 
 .contactUsComponent .formAndContactsSection {
-  /* border: 1px solid red; */
   margin-top: 60px;
   margin-bottom: 70px;
-  max-width: 1140px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
+
+@media (min-width: 982px) {
+  .contactUsComponent .formAndContactsSection {
+    max-width: 1140px;
+    width: 100%;
+  }
+
+  .contactUsComponent {
+    max-height: 785px;
+    height: 100%;
+  }
+} 
+
+@media (max-width: 981px) {
+  .contactUsComponent .formAndContactsSection {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,7 +1,4 @@
 .formSection {
-  /* border: 1px solid red; */
-  max-width: 660px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,9 +31,6 @@
 }
 
 .formSection .contactForm form div {
-  /* border: 1px solid #fff; */
-  width: 320px;
-  height: 54px;
   margin-bottom: 20px;
   overflow: hidden;
 }
@@ -92,9 +86,43 @@
   font-size: 18px;
   border: none;
   border-radius: 2px;
-  float: right;
 }
 
 .formSection .contactForm button:hover {
   cursor: pointer;
+}
+
+
+@media (min-width: 982px) {
+  .formSection {
+    max-width: 660px;
+    width: 100%;
+  }
+
+  .formSection .contactForm form div {
+    width: 320px;
+    height: 54px;
+  }
+
+  .formSection .contactForm button {
+    width: 176px;
+    height: 54px;
+    float: right;
+  }
+} 
+
+@media (max-width: 981px) {
+  .formSection {
+    width: 80%;
+  }
+
+  .formSection .contactForm form div {
+    width: 100%;
+    height: 54px;
+  }
+
+  .formSection .contactForm button {
+    width: 100%;
+    height: 54px;
+  }
 }
