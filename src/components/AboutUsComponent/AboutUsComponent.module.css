@@ -1,9 +1,8 @@
 .aboutUsComponent {
-  max-height: 540px;
-  height: 100%;
   padding: 107px 0 76px 0;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .aboutUsComponent >div {
@@ -15,25 +14,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .aboutUsDescription h2 {
-  letter-spacing: 0.3px;
-  font-size: 29px;
-  line-height: 37px;
   overflow: hidden;
 }
 
 .aboutUsDescription p {
-  margin-top: 5px;
   line-height: 30px;
   font-size: 17px;
 }
 
 .aboutUsDescription button {
-  margin-bottom: 20px;
-  width: 212px;
   height: 54px;
   background: rgb(17, 17, 17);
   color: #fff;
@@ -64,4 +56,65 @@
 
 .aboutUsComponent .aboutUsVideo:hover {
   transform: scaleX(1.01) scaleY(1.01) !important;
+}
+
+@media (min-width: 982px) {
+  .aboutUsComponent {
+    max-height: 540px;
+    height: 100%;
+  }
+
+  .aboutUsDescription button {
+    margin-bottom: 20px;
+  }
+
+  .aboutUsDescription h2 {
+    letter-spacing: 0.3px;
+    font-size: 29px;
+    line-height: 37px;
+  }
+
+  .aboutUsDescription p {
+    margin-top: 5px;
+  }
+
+  .aboutUsDescription button {
+    width: 212px;
+  }
+} 
+
+@media (max-width: 981px) {
+  .aboutUsComponent {
+    padding-top: 82px;
+    padding-bottom: 100px;
+    max-height: 935px;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+
+  .aboutUsComponent >div {
+    width: 80%;
+    margin: 0 33px;
+  }
+  
+  .aboutUsDescription h2 {
+    letter-spacing: 0.2px;
+    font-size: 31px;
+    line-height: 40px;
+  }
+  
+  .aboutUsDescription p {
+    margin-top: 36px;
+  }
+  
+  .aboutUsDescription button {
+    margin-top: 32px;
+    width: 225px;
+  }
+
+  .aboutUsComponent .aboutUsVideo {
+    margin-top: 33px;
+    width: 100%;
+    height: auto;
+  }
 }
